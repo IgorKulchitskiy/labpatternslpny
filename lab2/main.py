@@ -1,23 +1,32 @@
+import os
 from data.db import init_db
 from data.repositories_impl import TestScenarioRepositoryImpl
 from data.csv_reader import CsvTestDataReader
 from business.services_impl import TestDataServiceImpl
-from generator.csv_generator import generate_csv
+from presentation.controllers import TestScenarioWebController
 
-def main():
 
-    generate_csv("test_data.csv", rows=1200)
-
-    init_db()
-
+def build_service():
     repository = TestScenarioRepositoryImpl()
     reader = CsvTestDataReader()
+    return TestDataServiceImpl(repository, reader)
 
-    service = TestDataServiceImpl(repository, reader)
 
-    service.import_from_csv("test_data.csv")
+def seed_if_needed(service):
+    if service.list_scenarios():
+        return
 
-    print("Data successfully imported into database.")
+    if os.path.exists("test_data.csv"):
+        service.import_from_csv("test_data.csv")
+
+def main():
+    init_db()
+    service = build_service()
+    seed_if_needed(service)
+
+    controller = TestScenarioWebController(service)
+    app = controller.create_app()
+    app.run(debug=True)
 
 
 if __name__ == "__main__":
