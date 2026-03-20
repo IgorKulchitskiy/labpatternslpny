@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Тест-сценарії</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <div class="page-header">
+                <div>
+                    <h1>Тест-сценарії</h1>
+                    <p class="subtitle">Список сценаріїв з можливістю додавання, редагування та видалення.</p>
+                </div>
+                <a class="btn btn-primary" href="/scenarios/new">Додати сценарій</a>
+            </div>
+
+            {% if scenarios %}
+            <div class="table-wrap">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Назва</th>
+                            <th>Опис</th>
+                            <th>Пріоритет</th>
+                            <th>К-сть кроків</th>
+                            <th>К-сть результатів</th>
+                            <th>Дії</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for scenario in scenarios %}
+                        <tr>
+                            <td>{{ scenario.scenario_id }}</td>
+                            <td>{{ scenario.name }}</td>
+                            <td>{{ scenario.description }}</td>
+                            <td>{{ scenario.priority }}</td>
+                            <td>{{ scenario.steps|length }}</td>
+                            <td>{{ scenario.results|length }}</td>
+                            <td>
+                                <div class="actions">
+                                    <a class="btn btn-outline" href="/scenarios/{{ scenario.scenario_id }}/edit">Редагувати</a>
+                                    <form method="post" action="/scenarios/{{ scenario.scenario_id }}/delete">
+                                        <button class="btn btn-danger" type="submit">Видалити</button>
+                                    </form>
+                                </div>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <p class="empty-state">Сценаріїв поки немає. Створіть перший через кнопку вище.</p>
+            {% endif %}
+        </div>
+    </main>
+</body>
+</html>
