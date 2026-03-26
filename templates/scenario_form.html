@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if action == 'create' %}Додати{% else %}Редагувати{% endif %} сценарій</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}" />
+</head>
+<body>
+    <main class="container">
+        <div class="card">
+            <h1>{% if action == 'create' %}Додати{% else %}Редагувати{% endif %} сценарій</h1>
+            <p class="subtitle">Заповніть поля та збережіть зміни.</p>
+
+            {% if action == 'create' %}
+            <form class="form-grid" method="post" action="/scenarios">
+            {% else %}
+            <form class="form-grid" method="post" action="/scenarios/{{ scenario.scenario_id }}/edit">
+            {% endif %}
+                <label>
+                    Назва
+                    <input type="text" name="name" value="{{ scenario.name if scenario else '' }}" required />
+                </label>
+
+                <label>
+                    Опис
+                    <textarea name="description" rows="4" required>{{ scenario.description if scenario else '' }}</textarea>
+                </label>
+
+                <label>
+                    Пріоритет
+                    <input type="text" name="priority" value="{{ scenario.priority if scenario else '' }}" required />
+                </label>
+
+                <div class="actions">
+                    <button class="btn btn-primary" type="submit">Зберегти</button>
+                    <a class="btn btn-outline" href="/scenarios">Скасувати</a>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -70,3 +70,23 @@ class TestDataServiceImpl(TestDataService):
 
         for scenario in scenarios.values():
             self.repository.save(scenario)
+
+    def list_scenarios(self):
+        return self.repository.get_all()
+
+    def get_scenario(self, scenario_id: int):
+        return self.repository.get_by_id(scenario_id)
+
+    def create_scenario(self, name: str, description: str, priority: str):
+        scenario = TestScenario(
+            name=name,
+            description=description,
+            priority=priority
+        )
+        return self.repository.save(scenario)
+
+    def update_scenario(self, scenario_id: int, name: str, description: str, priority: str):
+        return self.repository.update(scenario_id, name, description, priority)
+
+    def delete_scenario(self, scenario_id: int):
+        return self.repository.delete(scenario_id)
