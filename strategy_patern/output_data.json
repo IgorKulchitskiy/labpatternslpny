@@ -1,0 +1,142 @@
+[
+    {
+        "CaseID": "68509446",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-03-31T02:39:38.000"
+    },
+    {
+        "CaseID": "68506247",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "MANHATTAN",
+        "CreatedDate": "2026-03-31T02:30:56.000"
+    },
+    {
+        "CaseID": "68503135",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "BROOKLYN",
+        "CreatedDate": "2026-03-31T02:26:57.000"
+    },
+    {
+        "CaseID": "68501976",
+        "Category": "Derelict Vehicles",
+        "Agency": "DSNY",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-03-31T02:26:00.000"
+    },
+    {
+        "CaseID": "68509447",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-03-31T02:17:11.000"
+    },
+    {
+        "CaseID": "68502622",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "MANHATTAN",
+        "CreatedDate": "2026-03-31T02:14:08.000"
+    },
+    {
+        "CaseID": "68504868",
+        "Category": "Illegal Parking",
+        "Agency": "NYPD",
+        "Borough": "BROOKLYN",
+        "CreatedDate": "2026-03-31T02:06:06.000"
+    },
+    {
+        "CaseID": "68501143",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "BRONX",
+        "CreatedDate": "2026-03-31T02:05:26.000"
+    },
+    {
+        "CaseID": "68501144",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "BRONX",
+        "CreatedDate": "2026-03-31T02:03:02.000"
+    },
+    {
+        "CaseID": "68506824",
+        "Category": "Illegal Parking",
+        "Agency": "NYPD",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-03-31T02:02:56.000"
+    },
+    {
+        "CaseID": "68512806",
+        "Category": "Noise - Street/Sidewalk",
+        "Agency": "NYPD",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-03-31T02:02:45.000"
+    },
+    {
+        "CaseID": "68503395",
+        "Category": "Traffic",
+        "Agency": "NYPD",
+        "Borough": "BROOKLYN",
+        "CreatedDate": "2026-03-31T02:01:50.000"
+    },
+    {
+        "CaseID": "68508882",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "BRONX",
+        "CreatedDate": "2026-03-31T02:01:14.000"
+    },
+    {
+        "CaseID": "68511556",
+        "Category": "Illegal Parking",
+        "Agency": "NYPD",
+        "Borough": "BRONX",
+        "CreatedDate": "2026-03-31T01:59:49.000"
+    },
+    {
+        "CaseID": "68504928",
+        "Category": "Noise - Residential",
+        "Agency": "NYPD",
+        "Borough": "BRONX",
+        "CreatedDate": "2026-03-31T01:59:03.000"
+    },
+    {
+        "CaseID": "68511205",
+        "Category": "Drug Activity",
+        "Agency": "NYPD",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-03-31T01:58:27.000"
+    },
+    {
+        "CaseID": "68504665",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "BRONX",
+        "CreatedDate": "2026-03-31T01:58:12.000"
+    },
+    {
+        "CaseID": "68504944",
+        "Category": "Noise - Vehicle",
+        "Agency": "NYPD",
+        "Borough": "BROOKLYN",
+        "CreatedDate": "2026-03-31T01:55:59.000"
+    },
+    {
+        "CaseID": "68503409",
+        "Category": "Noise - Residential",
+        "Agency": "NYPD",
+        "Borough": "BROOKLYN",
+        "CreatedDate": "2026-03-31T01:55:15.000"
+    },
+    {
+        "CaseID": "68501854",
+        "Category": "Illegal Parking",
+        "Agency": "NYPD",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-03-31T01:54:25.000"
+    }
+]
