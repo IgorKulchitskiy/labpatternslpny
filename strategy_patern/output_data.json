@@ -1,0 +1,142 @@
+[
+    {
+        "CaseID": "68514078",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-04-01T02:56:47.000"
+    },
+    {
+        "CaseID": "68516700",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "BROOKLYN",
+        "CreatedDate": "2026-04-01T02:32:25.000"
+    },
+    {
+        "CaseID": "68520432",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-04-01T02:19:38.000"
+    },
+    {
+        "CaseID": "68518285",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "BRONX",
+        "CreatedDate": "2026-04-01T02:18:53.000"
+    },
+    {
+        "CaseID": "68520433",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-04-01T02:17:38.000"
+    },
+    {
+        "CaseID": "68525167",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-04-01T02:15:39.000"
+    },
+    {
+        "CaseID": "68521446",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-04-01T02:13:35.000"
+    },
+    {
+        "CaseID": "68523584",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-04-01T02:11:28.000"
+    },
+    {
+        "CaseID": "68521981",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-04-01T01:57:28.000"
+    },
+    {
+        "CaseID": "68520434",
+        "Category": "Street Condition",
+        "Agency": "DOT",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-04-01T01:55:27.000"
+    },
+    {
+        "CaseID": "68523866",
+        "Category": "Street Sign - Missing",
+        "Agency": "DOT",
+        "Borough": "BRONX",
+        "CreatedDate": "2026-04-01T01:50:37.000"
+    },
+    {
+        "CaseID": "68514312",
+        "Category": "Noise - Vehicle",
+        "Agency": "NYPD",
+        "Borough": "MANHATTAN",
+        "CreatedDate": "2026-04-01T01:50:14.000"
+    },
+    {
+        "CaseID": "68519075",
+        "Category": "Noise - Street/Sidewalk",
+        "Agency": "NYPD",
+        "Borough": "QUEENS",
+        "CreatedDate": "2026-04-01T01:50:13.000"
+    },
+    {
+        "CaseID": "68514295",
+        "Category": "Noise - Residential",
+        "Agency": "NYPD",
+        "Borough": "BRONX",
+        "CreatedDate": "2026-04-01T01:50:05.000"
+    },
+    {
+        "CaseID": "68525415",
+        "Category": "Noise - Street/Sidewalk",
+        "Agency": "NYPD",
+        "Borough": "BROOKLYN",
+        "CreatedDate": "2026-04-01T01:49:58.000"
+    },
+    {
+        "CaseID": "68522099",
+        "Category": "Abandoned Vehicle",
+        "Agency": "NYPD",
+        "Borough": "BROOKLYN",
+        "CreatedDate": "2026-04-01T01:49:53.000"
+    },
+    {
+        "CaseID": "68518946",
+        "Category": "Animal in a Park",
+        "Agency": "DPR",
+        "Borough": "MANHATTAN",
+        "CreatedDate": "2026-04-01T01:49:38.000"
+    },
+    {
+        "CaseID": "68517500",
+        "Category": "Noise - Street/Sidewalk",
+        "Agency": "NYPD",
+        "Borough": "MANHATTAN",
+        "CreatedDate": "2026-04-01T01:49:32.000"
+    },
+    {
+        "CaseID": "68517490",
+        "Category": "Noise - Residential",
+        "Agency": "NYPD",
+        "Borough": "MANHATTAN",
+        "CreatedDate": "2026-04-01T01:49:19.000"
+    },
+    {
+        "CaseID": "68515924",
+        "Category": "Noise - Street/Sidewalk",
+        "Agency": "NYPD",
+        "Borough": "MANHATTAN",
+        "CreatedDate": "2026-04-01T01:49:19.000"
+    }
+]
