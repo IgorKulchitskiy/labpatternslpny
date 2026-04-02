@@ -1,21 +1,16 @@
 {
-    "output_strategy": "file",
-
+    "output_strategy": "console",
     "data_source": "api",
     "api_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
     "limit": 20,
-
     "csv_file_path": "311_cases_100_data.csv",
-
     "kafka": {
         "bootstrap_servers": "localhost:9092",
         "topic": "lab4"
     },
-
     "redis": {
         "host": "localhost",
         "port": 6379
     },
-
     "firebase_url": "https://strategie-63f07-default-rtdb.europe-west1.firebasedatabase.app/"
 }
